@@ -1,0 +1,89 @@
+{
+  "name": "CPQ Product Filter Test",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[21.8.0-preview]",
+    "UiPath.Testing.Activities": "[1.4.1-preview]",
+    "UiPath.UIAutomation.Activities": "[21.8.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.8.0.0",
+  "projectVersion": "1.0.86707083",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4defc210-6691-4046-8568-b54ab9d043e9",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5c580321-e719-444a-9d6e-60f6a02347cf",
+        "dataVariationFilePath": ".variations\\TestData_Sheet1_1.json",
+        "fileName": "Verify Functionality of Sumtotal Product filter.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a27fd4c8-4359-42cb-b486-ef885c55bb9e",
+        "dataVariationFilePath": ".variations\\TestData_Sheet1.json",
+        "fileName": "Verify Functionality of Skillsoft Product filter.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b1ddff2f-244a-41bd-a8e8-2457e4730186",
+        "dataVariationFilePath": ".variations\\TestData_Sheet1_2.json",
+        "fileName": "Verify Functionality of Compliance Product filter.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "890542d6-a422-446c-a092-690a7677ca85",
+        "dataVariationFilePath": ".variations\\TestData_Sheet1_3.json",
+        "fileName": "Verify Functionality of Vodeclic Product filter.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a0446e9b-662d-4a31-b4f0-e074a162ed22",
+        "dataVariationFilePath": ".variations\\TestData_Sheet1_4.json",
+        "fileName": "Verify Functionality of GTM-Business & Lead Product filter.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c257906b-2d75-4a4f-a095-6ca763e4f278",
+        "fileName": "Demo.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
